@@ -12,7 +12,6 @@ public class Main {
                 }else {arr[i] = 0;
                 }
             }
-
         }
 
         public static void fillArray() {
@@ -28,7 +27,6 @@ public class Main {
                 if (w[i] < 6)
                     w[i] = w[i] * 2;
             }
-
         }
 
         public  static void fillDiagonal() {
@@ -38,7 +36,6 @@ public class Main {
                     if (i == j) arr[i][j] = 1;
                 }
             }
-
         }
 }
 
