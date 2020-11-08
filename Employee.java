@@ -1,10 +1,10 @@
 public class Employee {
-    String fullname;
-    String position;
-    String email;
-    String phone;
-    int salary;
-    int age;
+    private String fullname;
+    private String position;
+    private String email;
+    private String phone;
+    private int salary;
+    private int age;
 
     public Employee(String fullname, String position, String email, String phone, int salary, int age) {
         this.fullname = fullname;
